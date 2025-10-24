@@ -22,7 +22,7 @@
 #include "Arduino_GFX_library.h"
 #include "lcd_defines/lcd_defines.h"
 #include "i2c_defines/i2c_defines.h"
-#include "Arduino_RPiPicoSPI.h"// provide the definition of Arduino_RPiPicoSPI
+
 
 Arduino_DataBus *bus = new Arduino_RPiPicoSPI(LCD_DC_PIN, LCD_CS_PIN, LCD_SCK_PIN, LCD_MOSI_PIN, LCD_MISO_PIN, LCD_SPI_NUM);
 
