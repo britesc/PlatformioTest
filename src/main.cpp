@@ -19,7 +19,7 @@
 /*
  * Start Arduino_GFX settings
  */
-#include "Arduino_GFX_library.h"
+#include <Arduino_GFX_Library.h>
 #include "lcd_defines/lcd_defines.h"
 #include "i2c_defines/i2c_defines.h"
 
